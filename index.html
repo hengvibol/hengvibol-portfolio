@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">HENG VIBOL</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Heng VIbol</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile.png" alt="John Doe profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Heng Vibol</h1>
+            <p class="section__text__p2">Mobile Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/HengVibol_CV.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+                    onclick="window.open('https://www.linkedin.com/in/vibol-heng-aa6aa2299/')" />
+                <img src="./assets/github.png" alt="My Github profile" class="icon"
+                    onclick="window.open('https://github.com/dashboard')" />
+                <img src="./assets/telegram.png" alt="My telegram profile" class="icon"
+                    onclick="window.open('https://t.me/VibolHeng', '_blank')" />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/image-about.JPEG" alt="Profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/expertise.png" alt="Experience icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>2 Month <br />Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/mortarboard.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>Bachelors Degree<br />Computer science</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        My name is Heng Vibol. I am a gradute student at The Royal University Of Phnom Penh. My major is
+                        Computer Science. I consider my self a responsible and orderly person. I like to research new
+                        technology feature and apply into my living life, so I’m looking foward for my first worke
+                        xperience.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'" />
+    </section>
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-container">
+            <div class="skills-sub-container">
+                <div class="skill-item">
+                    <img src="./assets/html.png" class="skill-icon" alt="HTML">
+                    <p>HTML</p>
+                </div>
+                <div class="skill-item">
+                    <img src="./assets/css-3.png" class="skill-icon" alt="CSS">
+                    <p>CSS</p>
+                </div>
+                <div class="skill-item">
+                    <img src="./assets/js.png" class="skill-icon" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-item">
+                    <img src="./assets/flutter.png" class="skill-icon" alt="Flutter">
+                    <p>Flutter</p>
+                </div>
+                <div class="skill-item">
+                    <img src="./assets/js.png" class="skill-icon" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-item">
+                    <img src="./assets/c-.png" class="skill-icon" alt="c#">
+                    <p>C#</p>
+                </div>
+                <div class="skill-item">
+                    <img src="./assets/java.png" class="skill-icon" alt="java">
+                    <p>Java</p>
+                </div>
+                <div class="skill-item">
+                    <img src="./assets/database.png" class="skill-icon" alt="mysql">
+                    <p>MySQL</p>
+                </div>
+                <div class="skill-item">
+                    <img src="./assets/firebase.png" class="skill-icon" alt="firebase">
+                    <p>Firebase</p>
+                </div>
+                <div class="skill-item">
+                    <img src="./assets/laravel.png" class="skill-icon" alt="Laravel">
+                    <p>Laravel</p>
+                </div>
+                <div class="skill-item">
+                    <img src="./assets/php.png" class="skill-icon" alt="Laravel">
+                    <p>Php</p>
+                </div>
+                <div class="skill-item">
+                    <img src="./assets/github.png" class="skill-icon" alt="Laravel">
+                    <p>GitHub</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="projects-container">
+            <div class="projects-sub-container">
+                <!-- Project 1 -->
+                 
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/money-tracker-ui.png" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Money Tracker App</h2>
+                    <div class="project-details">
+                        <p>A Money Tracker app to track daily expenses and income using Flutter With Laravel</p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/hengvibol/Money-Tracker-app')">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://www.youtube.com/watch?v=5h1ugBQPt_M&t=12s')">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/ecommerce_app.png" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">eCommerce App</h2>
+                    <div class="project-details">
+                        <p>Full-featured online store with Laravel backend and Flutter frontend.</p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/hengvibol/eCommerce-app-Flutter')">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://youtu.be/IH9a_emNVtU')">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/UI_ecom.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Flutter UI eCommerce app</h2>
+                    <div class="project-details">
+                        <p>Flutter eCommerce app UI </p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/hengvibol/eCommerce-UI-app')">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/hengvibol/eCommerce-UI-app')">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/portfolio.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Portfolio Website</h2>
+                    <div class="project-details">
+                        <p>Responsive personal portfolio built with HTML, CSS, and JavaScript.</p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/hengvibol/hengvibol-portfolio')">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/hengvibol/hengvibol-portfolio')">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/Java_book_store.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Book Store System</h2>
+                    <div class="project-details">
+                        <p>A Mini Book store System manage to sales and staff using Java Programming & Database </p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/dashboard')">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://youtu.be/qK_r90nAHCA'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/C_shap_shop_store.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Shop Store System</h2>
+                    <div class="project-details">
+                        <p>Developed a Mini Shop store System manage to sales and staff using by C# Programming &  Database (SQL Sever)  </p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/hengvibol/Mini-Shop-store')">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://youtu.be/omxtmEwko1g'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-container">
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./assets/email.png" alt="Email icon" class="email-icon" />
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <a href="mailto:vibolheng425@gmail.com" class="email-link">vibolheng425@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-info-container">
+                    <img src="./assets/telegram.png" alt="Telegram icon" class="icon contact-icon" />
+                    <div class="contact-details">
+                        <h3>Telegram</h3>
+                        <p><a href="https://t.me/VibolHeng">@VibolHeng</a></p>
+                    </div>
+                </div>
+                <div class="contact-info-container">
+                    <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                    <div class="contact-details">
+                        <h3>LinkedIn</h3>
+                        <p><a href="https://www.linkedin.com/in/vibol-heng-aa6aa2299/">Heng Vibol</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="socials-container">
+                <img src="./assets/facebook .png" alt="facebook profile" class="icon social-icon"
+                    onclick="location.href='https://web.facebook.com/heng.vibol.192'" />
+                <img src="./assets/linkedin.png" alt="LinkedIn profile" class="icon social-icon"
+                    onclick="location.href='https://www.linkedin.com/in/vibol-heng-aa6aa2299/'" />
+                <img src="./assets/github.png" alt="Github profile" class="icon social-icon"
+                    onclick="location.href='https://github.com/dashboard'" />
+                <img src="./assets/telegram.png" alt="Telegram profile" class="icon social-icon"
+                    onclick="location.href='https://t.me/VibolHeng'" />
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo">Heng Vibol</span>
+                    <p>Mobile Developer</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Me</h3>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/vibol-heng-aa6aa2299/" target="_blank"><img
+                                src="./assets/linkedin.png" alt="LinkedIn"></a>
+                        <a href="https://github.com/dashboard" target="_blank"><img src="./assets/github.png"
+                                alt="GitHub"></a>
+                        <a href="https://t.me/VibolHeng" target="_blank"><img src="./assets/telegram.png"
+                                alt="Telegram"></a>
+                        <a href="https://web.facebook.com/heng.vibol.192" target="_blank"><img
+                                src="./assets/facebook .png" alt="Telegram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Heng Vibol. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
