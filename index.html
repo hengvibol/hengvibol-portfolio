@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="./assets/profile.png" type="image/x-icon">
+    <title>Heng Vibol</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
 </head>
@@ -18,6 +19,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -34,6 +36,7 @@
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#certificates" onclick="toggleMenu()">Certificates</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
@@ -69,7 +72,7 @@
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section__pic-container">
-                <img src="./assets/image-about.JPEG" alt="Profile picture" class="about-pic" />
+                <img src="./assets/profile_about.png" alt="Profile picture" class="about-pic" />
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
@@ -88,7 +91,7 @@
                     <p>
                         My name is Heng Vibol. I am a gradute student at The Royal University Of Phnom Penh. My major is
                         Computer Science. I consider my self a responsible and orderly person. I like to research new
-                        technology feature and apply into my living life, so I’m looking foward for my first worke
+                        technology feature and apply into my living life, so I'm looking foward for my first worke
                         xperience.
                     </p>
                 </div>
@@ -102,15 +105,15 @@
         <div class="skills-container">
             <div class="skills-sub-container">
                 <div class="skill-item">
-                    <img src="./assets/html.png" class="skill-icon" alt="HTML">
+                    <img src="./assets/HTML5.png" class="skill-icon" alt="HTML">
                     <p>HTML</p>
                 </div>
                 <div class="skill-item">
-                    <img src="./assets/css-3.png" class="skill-icon" alt="CSS">
+                    <img src="./assets/CSS3_.png" class="skill-icon" alt="CSS">
                     <p>CSS</p>
                 </div>
                 <div class="skill-item">
-                    <img src="./assets/js.png" class="skill-icon" alt="JavaScript">
+                    <img src="./assets/Javascript_.png" class="skill-icon" alt="JavaScript">
                     <p>JavaScript</p>
                 </div>
                 <div class="skill-item">
@@ -118,20 +121,25 @@
                     <p>Flutter</p>
                 </div>
                 <div class="skill-item">
-                    <img src="./assets/js.png" class="skill-icon" alt="JavaScript">
-                    <p>JavaScript</p>
+                    <img src="./assets/Java_programming.png" class="skill-icon" alt="java">
+                    <p>Java</p>
+                </div>
+                <div class="skill-item">
+                    <img src="./assets/Spring_Boot.png" class="skill-icon" alt="JavaScript">
+                    <p>Spring Boot</p>
                 </div>
                 <div class="skill-item">
                     <img src="./assets/c-.png" class="skill-icon" alt="c#">
                     <p>C#</p>
                 </div>
-                <div class="skill-item">
-                    <img src="./assets/java.png" class="skill-icon" alt="java">
-                    <p>Java</p>
-                </div>
+                
                 <div class="skill-item">
                     <img src="./assets/database.png" class="skill-icon" alt="mysql">
                     <p>MySQL</p>
+                </div>
+                <div class="skill-item">
+                    <img src="./assets/Postgresql_elephant.png" class="skill-icon" alt="PostgreSQL">
+                    <p>PostgreSQL</p>
                 </div>
                 <div class="skill-item">
                     <img src="./assets/firebase.png" class="skill-icon" alt="firebase">
@@ -142,7 +150,7 @@
                     <p>Laravel</p>
                 </div>
                 <div class="skill-item">
-                    <img src="./assets/php.png" class="skill-icon" alt="Laravel">
+                    <img src="./assets/PHP-logo.png" class="skill-icon" alt="Laravel">
                     <p>Php</p>
                 </div>
                 <div class="skill-item">
@@ -279,6 +287,83 @@
 
             </div>
         </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#certificates'" />
+    </section>
+    <section id="certificates">
+        <p class="section__text__p1">My Achievement</p>
+        <h1 class="title">Certificates</h1>
+        <div class="certificates-container">
+            <!-- Certificate 1 -->
+            <div class="certificate-card">
+                <div class="certificate-preview">
+                    <img src="./assets/certificate/1.png" alt="AWS Certificate Preview" class="certificate-img" />
+                </div>
+                <h3>AWS Cloud Foundations</h3>
+                <p class="certificate-description">AWS Academy Graduate - AWS Academy Cloud Foundations</p>
+                <button class="btn btn-color-2" onclick="window.open('assets/certificate/AWS_Academy_Graduate___AWS_Academy_Cloud_Foundations.pdf')">
+                    View PDF
+                </button>
+            </div>
+
+            <!-- Certificate 2 -->
+            <div class="certificate-card">
+                <div class="certificate-preview">
+                    <img src="./assets/certificate/2.png" alt="AWS Certificate Preview 2" class="certificate-img" />
+                </div>
+                <h3>AWS Academy Cloud Architecting</h3>
+                <p class="certificate-description">AWS Academy Graduate - AWS Academy Cloud Architecting</p>
+                <button class="btn btn-color-2" onclick="window.open('assets/certificate/AWS_Academy_Graduate___AWS_Academy_Cloud_Architecting.pdf')">
+                    View PDF
+                </button>
+            </div>
+
+            <!-- Certificate 3 -->
+            <div class="certificate-card">
+                <div class="certificate-preview">
+                    <img src="./assets/certificate/3.png" alt="AWS Certificate Preview 3" class="certificate-img" />
+                </div>
+                <h3>AWS Academy Data Engineering</h3>
+                <p class="certificate-description">AWS Academy Graduate - AWS Academy Data Engineering</p>
+                <button class="btn btn-color-2" onclick="window.open('./assets/certificate/AWS_Academy_Graduate___AWS_Academy_Data_Engineering.pdf')">
+                    View PDF
+                </button>
+            </div>
+
+            <!-- Certificate 4 -->
+            <div class="certificate-card">
+                <div class="certificate-preview">
+                    <img src="./assets/certificate/4.png" alt=" AWS Certificate Preview 4" class="certificate-img" />
+                </div>
+                <h3>AWS Academy Machine Learning Foundations</h3>
+                <p class="certificate-description">AWS Academy Graduate - AWS Academy Machine Learning Foundations</p>
+                <button class="btn btn-color-2" onclick="window.open('./assets/certificate/AWS_Academy_Graduate___AWS_Academy_Machine_Learning_Foundations.pdf')">
+                    View PDF
+                </button>
+            </div>
+            <!-- Certificate 5 -->
+            <div class="certificate-card">
+                <div class="certificate-preview">
+                    <img src="./assets/certificate/5.png" alt=" Certificate Preview 5" class="certificate-img" />
+                </div>
+                <h3>FCF - Introduction to the Threat Landscape 3.0</h3>
+                <p class="certificate-description">successfully completed the course
+FCF - Introduction to the Threat Landscape 3.0</p>
+                <button class="btn btn-color-2" onclick="window.open('./assets/certificate/Course_Completion_Certificate.pdf')">
+                    View PDF
+                </button>
+            </div>
+            <!-- Certificate 6 -->
+            <div class="certificate-card">
+                <div class="certificate-preview">
+                    <img src="./assets/certificate/6.png" alt=" Certificate Preview 6" class="certificate-img" />
+                </div>
+                <h3>Fortinet Certified Associate in Cybersecurity</h3>
+                <p class="certificate-description">Fortinet Certified Associate in Cybersecurity</p>
+                <button class="btn btn-color-2" onclick="window.open('./assets/certificate/')">
+                    View PDF
+                </button>
+            </div>
+        </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
     </section>
     <section id="contact">
@@ -320,6 +405,7 @@
             </div>
         </div>
     </section>
+
     <footer>
         <div class="footer-container">
             <div class="footer-content">
@@ -333,6 +419,7 @@
                         <li><a href="#about">About</a></li>
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#projects">Projects</a></li>
+                        <li><a href="#certificates">Certificates</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
